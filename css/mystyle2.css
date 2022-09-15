@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+.container {
+    width: 150%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.row {
+    background: white;
+    height: fit-content;
+    box-shadow: 15px 15px 30px;
+}
+
+.logo img {
+    padding-left: 22rem;
+    padding-top: 80px;
+    justify-content: center;
+}
+
+.subtext h1 {
+    padding-top: 40%;
+    padding-right: 20%;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subtext2 h1 {
+    padding-top: 10px;
+}
+
+.subtext2 p {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: gray;
+}
+
+.my-form {
+    padding-top: opx;
+}
+
+.inp {
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 15px;
+}
+
+.btn1 {
+    font-size: medium;
+    height: 60px;
+    border: 1px solid green;
+    width: 45%;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding-left: 98px;
+}
+
+.sidebar {
+    background-color: green;
+    float: right;
+    font-size: medium;
+    height: 60px;
+    width: 45%;
+    border-radius: 10px;
+    font-weight: 600;
+    padding-left: 30%;
+    padding-top: 8px;
+}
+
+.btn2 {
+    border: none;
+    background: none;
+}

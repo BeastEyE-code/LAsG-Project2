@@ -1,0 +1,81 @@
+  body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background: black;
+  }
+  
+  .container {
+      width: 100%;
+      margin: auto;
+      overflow: hidden;
+  }
+  
+  .row {
+      background: white;
+      height: fit-content;
+      box-shadow: 15px 15px 30px;
+  }
+  
+  .logo img {
+      padding-left: 22rem;
+      padding-top: 80px;
+      justify-content: center;
+  }
+  
+  .subtext h1 {
+      padding-top: 40%;
+      padding-right: 20%;
+      font-size: x-large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .subtext2 h1 {
+      padding-top: 10px;
+  }
+  
+  .subtext2 p {
+      padding-top: 0;
+  }
+  
+  a {
+      text-decoration: none;
+      color: whitesmoke;
+  }
+  
+  .myList {
+      list-style: none;
+      padding-top: 20px;
+      padding-right: 20%;
+  }
+  
+  .myList :hover {
+      color: gray;
+  }
+  
+  .myList li {
+      padding: 20px;
+      text-align: center;
+      box-sizing: border-box;
+      margin-bottom: 12px;
+      border-radius: 10px;
+      font-size: larger;
+      font-weight: 500;
+      color: aliceblue;
+  }
+  
+  .myList li:nth-child(1) {
+      background-color: darkgreen;
+  }
+  
+  .myList li:nth-child(2) {
+      background-color: rgb(20, 3, 150);
+  }
+  
+  .myList li:nth-child(3) {
+      background-color: rgb(173, 120, 6);
+  }
+  
+  .myList li:nth-child(4) {
+      background-color: rgb(140, 4, 4);
+  }

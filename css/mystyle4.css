@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.row {
+    background: white;
+    height: fit-content;
+    box-shadow: 15px 15px 30px;
+}
+
+.logo img {
+    padding-left: 25rem;
+    padding-top: 98px;
+    justify-content: center;
+}
+
+.subtext2 h2 {
+    padding-top: 15rem;
+}
+
+.subtext2 p {
+    padding-top: 0rem;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: gray;
+}
+
+.inp {
+    color: gray;
+    height: 50px;
+    width: 90%;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 15px;
+    padding-left: 3px;
+}
+
+.btn1 {
+    font-size: medium;
+    height: 60px;
+    border: 1px solid green;
+    width: 45%;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding-left: 98px;
+}
+
+.sidebar {
+    background-color: green;
+    float: right;
+    font-size: medium;
+    height: 60px;
+    width: 45%;
+    border-radius: 10px;
+    font-weight: 600;
+    padding-left: 30%;
+    padding-top: 8px;
+}
+
+.btn2 {
+    border: none;
+    background: none;
+}
