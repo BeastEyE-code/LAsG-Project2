@@ -1,7 +1,6 @@
   body {
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
       background: black;
   }
   
@@ -40,7 +39,7 @@
   
   a {
       text-decoration: none;
-      color: whitesmoke;
+      color: inherit;
   }
   
   .myList {
@@ -51,6 +50,51 @@
   
   .myList :hover {
       color: gray;
+  }
+  
+  .my-form {
+      padding-top: 0px;
+  }
+  
+  .inp {
+      height: 50px;
+      width: 100%;
+      border: 1px solid black;
+      outline: none;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .navigation {
+      display: flex;
+      padding: 5px;
+      justify-content: space-between;
+  }
+  
+  .button {
+      font-size: medium;
+      height: 60px;
+      width: 45%;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .button-green {
+      background: green;
+      color: white;
+  }
+  
+  .button-white {
+      background: white;
+      color: green;
+      border: 1px solid green;
   }
   
   .myList li {
